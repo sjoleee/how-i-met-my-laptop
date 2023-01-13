@@ -1,7 +1,7 @@
 # !/bin/bash
 
 # install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install via brew
 brew bundle --file=./Brewfile
