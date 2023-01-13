@@ -41,3 +41,28 @@ git clone https://github.com/sjoleee/how-i-met-my-laptop.git
 ```
 ./how-i-met-my-laptop/install.sh
 ```
+
+🛠 이때, 권한 문제로 install.sh가 실행되지 않는다면?
+
+
+1️⃣ 폴더로 진입합니다.
+```
+cd how-i-met-my-laptop
+```
+
+2️⃣ 실행 권한을 수정합니다.
+```
+chmod +x install.sh
+```
+
+3️⃣ 실행합니다.
+```
+./install.sh
+```
+
+
+
+
+
+
+
