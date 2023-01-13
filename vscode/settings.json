@@ -1,0 +1,43 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.fontFamily": "D2Coding",
+  "svg.preview.mode": "svg",
+  "window.zoomLevel": 1,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "totalTypeScript.hiddenTips": [
+    "typing-function-parameters",
+    "ts-object-type",
+    "basic-types",
+    "passing-generics-to-types",
+    "union-type",
+    "literal-type",
+    "pick-utility-type",
+    "type-alias-declaration",
+    "interface-declaration",
+    "optional-object-property",
+    "variable-type-annotation",
+    "any-type",
+    "null-keyword",
+    "array-type"
+  ],
+  "totalTypeScript.hideAllTips": true,
+  "totalTypeScript.hideBasicTips": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    }
+  ]
+}
