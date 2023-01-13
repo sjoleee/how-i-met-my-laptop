@@ -4,7 +4,24 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install via brew
-brew bundle
+brew install mas
+brew install node
+# zsh is default in MacOS Catalina
+# brew "zsh"
+
+mas install 869223134
+mas install 803453959
+mas install 1429033973
+mas install 937984704
+mas install 540348655
+mas install 990588172
+
+brew install postman
+brew install sourcetree
+brew install google-chrome
+brew install iterm2
+brew install discord
+
 
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 open /Applications/Postman.app
