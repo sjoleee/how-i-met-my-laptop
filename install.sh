@@ -41,14 +41,10 @@ open /Applications/Discord.app
 
 cp -a ./fonts/. ~/Library/Fonts
 
-# configure zsh
-chmod 755 ./zsh/install.sh
-./zsh/install.sh
-
 # configure VSCode
 chmod 755 ./vscode/install.sh
 ./vscode/install.sh
 
-# copy iterm2 configuration
-chmod 755 ./iterm2/install.sh
-./iterm2/install.sh
+# configure zsh
+chmod 755 ./zsh/install.sh
+./zsh/install.sh
