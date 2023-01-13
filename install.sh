@@ -4,7 +4,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install via brew
-brew bundle --file=./Brewfile
+brew bundle
 
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 open /Applications/Postman.app
