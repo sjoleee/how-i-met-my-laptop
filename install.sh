@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # install via brew
 brew install mas
-brew install node
+brew install node@16
 brew install yarn --ignore-dependencies
 # zsh is default in MacOS Catalina
 # brew "zsh"
