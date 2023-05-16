@@ -5,7 +5,7 @@
 
 | Tool name | 비고 |
 | ------------ | ------------- |
-|node||
+|node|@18|
 |KakaoTalk||
 |Slack||
 |Discord||
