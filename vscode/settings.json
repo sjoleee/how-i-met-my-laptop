@@ -1,5 +1,10 @@
 {
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Super One Dark",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#414141",
+    "statusBar.foreground": "#ffffff",
+    "editor.background": "#202020"
+  },
   "git.autofetch": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.defaultFormatter": "esbenp.prettier-vscode",

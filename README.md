@@ -3,24 +3,22 @@
 새로운 맥북을 구입한 기념으로 **개발 환경 설정을 자동으로 수행**하는 shell script를 작성하였습니다.<br>
 다음과 같은 툴들을 설치합니다.
 
-| Tool name | 비고 |
-| ------------ | ------------- |
-|node|@18|
-|KakaoTalk||
-|Slack||
-|Discord||
-|RunCat|CPU 사용량 등을 표시해주는 생산성 앱|
-|Amphetamine|맥북 화면이 꺼지지 않게 해주는 앱|
-|Monosnap|스크린 캡쳐 앱|
-|Gestimer|뽀모도로 타이머(유료)|
-|postman||
-|sourcetree||
-|google-chrome||
-|iterm2||
-
-
-
-
+| Tool name     | 비고                                 |
+| ------------- | ------------------------------------ |
+| node          | @18                                  |
+| nvm           |                                      |
+| vscode        | 확장프로그램까지 포함                |
+| KakaoTalk     |                                      |
+| Slack         |                                      |
+| Discord       |                                      |
+| RunCat        | CPU 사용량 등을 표시해주는 생산성 앱 |
+| Amphetamine   | 맥북 화면이 꺼지지 않게 해주는 앱    |
+| Monosnap      | 스크린 캡쳐 앱                       |
+| postman       |                                      |
+| sourcetree    |                                      |
+| google-chrome |                                      |
+| iterm2        |                                      |
+| Fig           | git 명령어를 자동완성 해주는 앱      |
 
 ## setting
 
@@ -44,25 +42,20 @@ git clone https://github.com/sjoleee/how-i-met-my-laptop.git
 
 🛠 이때, 권한 문제로 install.sh가 실행되지 않는다면?
 
-
 1️⃣ 폴더로 진입합니다.
+
 ```
 cd how-i-met-my-laptop
 ```
 
 2️⃣ 실행 권한을 수정합니다.
+
 ```
 chmod +x install.sh
 ```
 
 3️⃣ 실행합니다.
+
 ```
 ./install.sh
 ```
-
-
-
-
-
-
-

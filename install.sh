@@ -19,14 +19,15 @@ mas install 803453959
 mas install 1429033973
 mas install 937984704
 mas install 540348655
-mas install 990588172
 
 brew install postman
 brew install sourcetree
 brew install google-chrome
 brew install iterm2
 brew install discord
-
+brew install fig
+brew install nvm
+mkdir ~/.nvm
 
 sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 open /Applications/Postman.app
@@ -38,6 +39,8 @@ sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
 sudo xattr -dr com.apple.quarantine /Applications/Discord.app
 open /Applications/Discord.app
+sudo xattr -dr com.apple.quarantine /Applications/Fig.app
+open /Applications/Fig.app
 
 cp -a ./fonts/. ~/Library/Fonts
 
