@@ -20,6 +20,13 @@
 | iterm2        |                                      |
 | Fig           | git 명령어를 자동완성 해주는 앱      |
 
+## 🚨 주의!
+
+`.zshrc`에 저의 닉네임이 작성되어 있어요.<br>
+아래 코드에서 제 닉네임을 지우고, 사용하시는 분의 닉네임으로 변경해주세요!
+
+https://github.com/sjoleee/how-i-met-my-laptop/blob/440061be50dc47e2c6d24e220230013ed6b04e2e/zsh/.zshrc#L108-L110
+
 ## setting
 
 1️⃣ 터미널에서 아래 명령어를 입력하면 git을 설치합니다.
