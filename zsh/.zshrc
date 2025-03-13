@@ -99,18 +99,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# 👇 아래 YOUR_NICKNAME 부분을 원하는 닉네임으로 변경하세요
 prompt_context() {
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
-  fi
+  prompt_segment black default "YOUR_NICKNAME"
 }
 
-prompt_context() {
-  prompt_segment black default "Sjoleee 🐶 "
-}
-
+# NVM 설정
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-export NVM_DIR=~/.nvm
-source $(brew —prefix nvm)/nvm.sh
+# Node.js 관련 PATH 설정
+# nvm이 설정한 Node.js PATH가 Homebrew보다 우선되도록 함
+export PATH="$NVM_DIR/versions/node/$(nvm current)/bin:$PATH"
