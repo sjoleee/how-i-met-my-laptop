@@ -51,6 +51,7 @@ else
 fi
 
 
+
 #####################################################
 # 1. 테마 및 시각화
 #####################################################
@@ -71,18 +72,14 @@ run_cmd "code --install-extension naumovs.color-highlight"
 // 에디터 확대/축소 도구
 run_cmd "code --install-extension wraith13.zoombar-vscode"
 
+// Indent Rainbow
+// 들여쓰기 수준을 색상으로 구분
+run_cmd "code --install-extension oderwat.indent-rainbow"
+
 
 #####################################################
 # 2. AI 및 코드 지원 도구
 #####################################################
-
-// GitHub Copilot
-// AI 기반 코드 자동 완성 도구
-run_cmd "code --install-extension github.copilot"
-
-// GitHub Copilot Chat
-// AI와 채팅을 통한 코딩 도움말
-run_cmd "code --install-extension github.copilot-chat"
 
 // IntelliCode
 // AI 기반 코드 완성 및 제안
@@ -165,7 +162,16 @@ run_cmd "code --install-extension editorconfig.editorconfig"
 
 
 #####################################################
-# 6. Python 개발
+# 6. 테스트 도구
+#####################################################
+
+// Vitest Explorer
+// Vitest 테스트 실행 및 디버깅
+run_cmd "code --install-extension vitest.explorer"
+
+
+#####################################################
+# 7. Python 개발
 #####################################################
 
 // Python
@@ -182,7 +188,7 @@ run_cmd "code --install-extension ms-python.debugpy"
 
 
 #####################################################
-# 7. Java 개발
+# 8. Java 개발
 #####################################################
 
 // Language Support for Java
@@ -215,7 +221,7 @@ run_cmd "code --install-extension vscjava.vscode-gradle"
 
 
 #####################################################
-# 8. Flutter/Dart 개발
+# 9. Flutter/Dart 개발
 #####################################################
 
 // Dart
@@ -228,7 +234,7 @@ run_cmd "code --install-extension dart-code.flutter"
 
 
 #####################################################
-# 9. Git 및 협업 도구
+# 10. Git 및 협업 도구
 #####################################################
 
 // GitLens
@@ -257,7 +263,7 @@ run_cmd "code --install-extension atlassian.atlascode"
 
 
 #####################################################
-# 10. 데이터 및 국제화 도구
+# 11. 데이터 및 국제화 도구
 #####################################################
 
 // i18n Ally
@@ -274,10 +280,10 @@ run_cmd "code --install-extension dandric.vscode-jq"
 
 
 #####################################################
-# 11. 개발 생산성 도구
+# 12. 개발 생산성 도구
 #####################################################
 
-// TODO Highlight
+// TODO highlight
 // TODO 주석 강조 표시
 run_cmd "code --install-extension wayou.vscode-todo-highlight"
 
@@ -291,7 +297,7 @@ run_cmd "code --install-extension formulahendry.code-runner"
 
 
 #####################################################
-# 12. 기타 유틸리티
+# 13. 기타 유틸리티
 #####################################################
 
 // ZipFS
@@ -305,6 +311,20 @@ run_cmd "code --install-extension omlet.omlet-vscode-extension"
 // File Tree Generator
 // 파일 구조를 트리 형태로 시각화
 run_cmd "code --install-extension shinotatwu-ds.file-tree-generator"
+
+
+#####################################################
+# 14. vscode 전용
+#####################################################
+
+// GitHub Copilot
+// AI 기반 코드 자동 완성 도구
+run_cmd "code --install-extension github.copilot"
+
+// GitHub Copilot Chat
+// AI와 채팅을 통한 코딩 도움말
+run_cmd "code --install-extension github.copilot-chat"
+
 
 
 # 설정 파일 복사
