@@ -72,10 +72,6 @@ run_cmd "code --install-extension naumovs.color-highlight"
 # 에디터 확대/축소 도구
 run_cmd "code --install-extension wraith13.zoombar-vscode"
 
-# Indent Rainbow
-# 들여쓰기 수준을 색상으로 구분
-run_cmd "code --install-extension oderwat.indent-rainbow"
-
 
 #####################################################
 # 2. AI 및 코드 지원 도구
