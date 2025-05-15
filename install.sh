@@ -48,6 +48,13 @@ if [ "$DRY_RUN" = true ]; then
   log_info "드라이런 모드 시작"
 else
   log_info "설치 시작"
+  
+  # 사용자에게 닉네임 입력 요청
+  log_info "ZSH 사용할 닉네임을 설정합니다..."
+  read -p "원하는 닉네임을 입력해주세요 (기본값: $(whoami)): " NICKNAME
+  NICKNAME=${NICKNAME:-$(whoami)} # 입력이 없으면 현재 사용자 이름 사용
+  log_info "닉네임을 '${NICKNAME}'으로 설정합니다."
+  export NICKNAME
 fi
 
 # Homebrew 설치
@@ -162,29 +169,30 @@ if [ "$DRY_RUN" = false ]; then
 fi
 
 # VSCode 설정
-log_info "VSCode 설정 중..."
 run_cmd "chmod 755 ./vscode/install.sh"
 if [ "$DRY_RUN" = true ]; then
   ./vscode/install.sh --dry-run
 else
+  log_info "VSCode 설정 중..."
   ./vscode/install.sh
 fi
 
 # Cursor 설정
-log_info "Cursor 설정 중..."
 run_cmd "chmod 755 ./cursor/install.sh"
 if [ "$DRY_RUN" = true ]; then
   ./cursor/install.sh --dry-run
 else
+  log_info "Cursor 설정 중..."
   ./cursor/install.sh
 fi
 
 # ZSH 설정
-log_info "ZSH 설정 중..."
 run_cmd "chmod 755 ./zsh/install.sh"
 if [ "$DRY_RUN" = true ]; then
   ./zsh/install.sh --dry-run
 else
+  log_info "ZSH 설정 중..."
+  # 미리 입력받은 닉네임을 환경변수로 전달
   ./zsh/install.sh
 fi
 

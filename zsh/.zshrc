@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# 👇 아래 YOUR_NICKNAME 부분을 원하는 닉네임으로 변경하세요
 prompt_context() {
   prompt_segment black default "YOUR_NICKNAME"
 }
