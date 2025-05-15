@@ -6,6 +6,12 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabCompletion": "on",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.test.ts, ${capture}.spec.ts, ${capture}.js, ${capture}.d.ts, ${capture}.d.ts.map",
+    "*.tsx": "${capture}.stories.tsx, ${capture}.stories.ts, ${capture}.test.ts, ${capture}.spec.ts, ${capture}.test.tsx, ${capture}.spec.tsx",
+    "index.tsx": "${dirname}.stories.tsx, ${dirname}.test.ts, ${dirname}.spec.ts, ${dirname}.test.tsx, ${dirname}.spec.tsx"
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
