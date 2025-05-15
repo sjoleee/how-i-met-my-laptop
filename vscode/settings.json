@@ -34,6 +34,7 @@
       "text": "NOTE:"
     }
   ],
+  "typescript.preferences.includePackageJsonAutoImports": "on",
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
   "window.zoomLevel": 0.4772413011367769,
