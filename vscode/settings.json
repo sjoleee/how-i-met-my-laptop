@@ -19,6 +19,9 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "security.promptForLocalFileProtocolHandling": false,
   "svg.preview.mode": "svg",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
   },
