@@ -1,23 +1,23 @@
 {
-  "console-ninja.featureSet": "Community",
-  "diffEditor.renderSideBySide": false,
+  "cursor.cpp.disabledLanguages": ["plaintext"],
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.fontFamily": "Hack, monospace",
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": true,
   "editor.tabCompletion": "on",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.test.ts, ${capture}.spec.ts, ${capture}.js, ${capture}.d.ts, ${capture}.d.ts.map",
+    "*.tsx": "${capture}.stories.tsx, ${capture}.stories.ts, ${capture}.test.ts, ${capture}.spec.ts, ${capture}.test.tsx, ${capture}.spec.tsx",
+    "index.tsx": "${dirname}.stories.tsx, ${dirname}.test.ts, ${dirname}.spec.ts, ${dirname}.test.tsx, ${dirname}.spec.tsx"
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "gitlens.views.commitDetails.files.layout": "tree",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
-  "mdx.experimentalLanguageServer": true,
-  "redhat.telemetry.enabled": true,
   "security.promptForLocalFileProtocolHandling": false,
   "svg.preview.mode": "svg",
   "tailwindCSS.experimental.classRegex": [
@@ -35,27 +35,10 @@
       "text": "NOTE:"
     }
   ],
-  "totalTypeScript.hiddenTips": [
-    "typing-function-parameters",
-    "ts-object-type",
-    "basic-types",
-    "passing-generics-to-types",
-    "union-type",
-    "literal-type",
-    "pick-utility-type",
-    "type-alias-declaration",
-    "interface-declaration",
-    "optional-object-property",
-    "variable-type-annotation",
-    "any-type",
-    "null-keyword",
-    "array-type"
-  ],
-  "totalTypeScript.hideAllTips": true,
-  "totalTypeScript.hideBasicTips": true,
   "typescript.preferences.includePackageJsonAutoImports": "on",
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "window.zoomLevel": 0.4772413011367769,
   "workbench.activityBar.orientation": "vertical",
   "workbench.colorCustomizations": {
     "editor.background": "#202020",
@@ -63,5 +46,5 @@
     "statusBar.foreground": "#ffffff"
   },
   "workbench.colorTheme": "Super One Dark",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
 }
