@@ -113,10 +113,6 @@ run_cmd "code --install-extension ritwickdey.liveserver"
 // SVG 파일 편집 및 미리보기
 run_cmd "code --install-extension jock.svg"
 
-// TypeScript Error Translator
-// TypeScript 오류 메시지를 이해하기 쉽게 번역
-run_cmd "code --install-extension mattpocock.ts-error-translator"
-
 // Template String Converter
 // 문자열을 템플릿 문자열로 자동 변환해주는 도구
 run_cmd "code --install-extension meganrogge.template-string-converter"
